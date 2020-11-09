@@ -49,7 +49,7 @@ gem 'sprockets', '< 4.0.0'
 # Authentication.
 gem 'omniauth'
 gem 'omniauth-twitter'
-gem 'omniauth-google-oauth2'
+gem 'omniauth-google-oauth2', git: 'https://github.com/farhatahmad/omniauth-google-oauth2.git', branch: 'master'
 gem 'omniauth-bn-launcher', '~> 0.1.3'
 gem 'net-ldap'
 gem 'bn-ldap-authentication', '~> 0.1.4'
